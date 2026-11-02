@@ -31,6 +31,7 @@ Not one issue. Two problems, two fixes. The "one fix queued" does not cover the 
 
 ## Notes
 
+- `hint` is **won't fix**: the booking-v3 form is retired, so the hint text goes away with it.
 - Intake tags are a guess from the reporter's browser: of the 33 `hint` reports, 15 were tagged `parser`; 23 `hint`-tagged reports belong to `parser`.
 - Four reports (R-41290, R-41417, R-41514, R-41615) give no usable date. They stay in `parser` by tenant; confirm when the parser fix ships.
 - Merging "when unsure" ([triage: duplicates](/kb/triage/dedupe)) is what hid this. Match on cause (tenant locale + booking form), not on subject.
