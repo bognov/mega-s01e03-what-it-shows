@@ -29,6 +29,10 @@ Not one issue. Two problems, two fixes. The "one fix queued" does not cover the 
 
 379 + 33 = 412. Five of the `parser` reports (R-41202, R-41209, R-41236, R-41344, R-41620) describe a one-day shift, not a swap; the desk files them under `parser` by tenant.
 
+## Outcome (desk update, #4471 closed 5 Oct)
+
+- `parser`: **fixed**, `fix(dates): parse dd/mm for eu locales`.
+
 ## Notes
 
 - `hint` is **won't fix**: the booking-v3 form is retired, so the hint text goes away with it.
